@@ -1,0 +1,12 @@
+<?php
+
+namespace DummyNamespace;
+
+use App\Facade;
+
+class DummyClass extends Facade
+{
+    public static function getFacadeAccessor() {
+        return 'DummyTarget';
+    }
+}
